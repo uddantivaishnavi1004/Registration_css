@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        body {
+           margin: 0px;
+           background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-movie-retro-movie-image_785480.jpg");
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           background-attachment: fixed;
+           font-family: sans-serif;
+        }
+       .field-container{
+        text-align: center;
+        background-color: white;
+        background-position: center;    
+        color: grey;
+        font-family: sans-serif;
+        width: 37%;
+        padding: 1.6% 10px;
+        margin: auto;
+        margin-top: 4%;
+        border-radius: 15%;
+        margin-left: 7%;
+
+       }
+       .field-class h1{
+        color: black;
+       }
+       .field-class{
+        margin: 20px 0px;
+       }
+       .field-classes input{
+        border-radius: 25px;
+        width: 30%;
+        padding: 13px;
+        
+       }
+       .field-classes input::placeholder{
+            text-align: center;
+        }
+        .field-class button{
+            border: 1px solid black;
+            color:inherit;
+            background-color:white;
+            padding: 10px;
+            width: 11.5%;
+            border-radius: 13px;
+        }
+    </style>
+</head>
+<body>
+    <form action="./login.html" class="field-container">
+    <div class="field-class">
+        <h1>Register Here!!!</h1>
+    </div>
+    <div class="field-classes">
+    <input type="text" placeholder="Enter your Name" required> <br/><br/>
+    <input type="email" placeholder="Enter your email"> <br/><br/>
+    <input type="password"  placeholder="Enter your password" > <br/><br/>
+    <input type="password" placeholder="Confirm password"> <br/><br/>
+    <input type="text" placeholder="Mobile number"></div>
+    
+    <div class="field-class">Gender: <input type="radio" id="gmale" name="Gender">
+        <label for="gmale">Male</label>
+    <input type="radio" id="gfemale" name="Gender">
+        <label for="gfemale">Female</label>
+    </div>
+
+    <div class="field-class">Educational Qualification: 
+    <input type="checkbox">10th 
+    <input type="checkbox">Intermediate 
+    <input type="checkbox">Diploma 
+    <input type="checkbox">B.Tech 
+    <input type="checkbox">Degree 
+    <input type="checkbox">MBA  </div>
+
+    <div class="field-class">City: 
+        <select>
+        <option value="">Select your city</option>
+        <option value="">Vijayawada</option>
+        <option value="">Guntur</option>
+        <option value="">Kakinada</option>
+        <option value="">Hyderabad</option>
+        <option value="">Vizag</option>
+        <option value="">Chennai</option>
+        </select>
+    </div>
+
+    <div class="field-class">Upload photo: <input type="file"> <br/><br/><br/>
+    <button>Register</button></div>
+    
+    </form>
+</body>
+</html>
